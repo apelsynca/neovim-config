@@ -1,0 +1,10 @@
+vim.lsp.enable({
+	"lua_ls",
+	"ruff",
+	"pyright",
+	"ts_ls",
+	"taplo",
+	"emmet_language_server",
+	"cssls",
+	"eslint",
+})

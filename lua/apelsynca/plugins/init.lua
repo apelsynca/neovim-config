@@ -1,0 +1,15 @@
+require("apelsynca.plugins.conform")
+require("apelsynca.plugins.fzf")
+require("apelsynca.plugins.lazygit")
+require("apelsynca.plugins.lualine")
+require("apelsynca.plugins.mason")
+require("apelsynca.plugins.oil")
+require("apelsynca.plugins.surround")
+require("apelsynca.plugins.luasnippets")
+require("apelsynca.plugins.blink")
+require("apelsynca.plugins.ts-autotag")
+
+require("autoclose").setup()
+
+require("gruvbox").setup()
+vim.cmd.colorscheme("gruvbox")
