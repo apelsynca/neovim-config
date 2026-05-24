@@ -38,7 +38,7 @@
       "src": "https://github.com/ellisonleao/gruvbox.nvim"
     },
     "koda.nvim": {
-      "rev": "ac7e746882b31a68bdcd533464a20ca40b712bcb",
+      "rev": "541c80190dc955ece378ce4766c35e7a7e373306",
       "src": "https://github.com/oskarnurm/koda.nvim"
     },
     "lazygit.nvim": {

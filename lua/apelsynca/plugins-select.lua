@@ -8,6 +8,7 @@ require("apelsynca.plugins.surround")
 require("apelsynca.plugins.luasnippets")
 require("apelsynca.plugins.blink")
 require("apelsynca.plugins.ts-autotag")
+require("apelsynca.plugins.colorizer")
 
 require("autoclose").setup()
 

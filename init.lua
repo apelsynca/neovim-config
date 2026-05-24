@@ -5,6 +5,6 @@ require("apelsynca.core")
 
 require("apelsynca.keymaps") -- mappings
 require("apelsynca.pack") -- plugins to install
-require("apelsynca.plugins") -- plugins to configure
+require("apelsynca.plugins-select") -- plugins to enable configure
 require("apelsynca.lsp") -- tells what lsps to enable
 require("apelsynca.autocmds")
