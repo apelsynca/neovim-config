@@ -9,9 +9,8 @@
       "src": "https://github.com/m4xshen/autoclose.nvim"
     },
     "blink.cmp": {
-      "rev": "78336bc89ee5365633bcf754d93df01678b5c08f",
-      "src": "https://github.com/saghen/blink.cmp",
-      "version": "1.0.0 - 2.0.0"
+      "rev": "dcc0bce0622fe51f319999b1c220868b29e1b27f",
+      "src": "https://github.com/saghen/blink.cmp"
     },
     "blink.lib": {
       "rev": "f29d8bac6549bc1e7d699c83f680823d7def98bd",
