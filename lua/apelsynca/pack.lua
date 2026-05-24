@@ -24,3 +24,8 @@ vim.pack.add({
 	"https://github.com/oskarnurm/koda.nvim",
 	"https://github.com/ThorstenRhau/token",
 })
+
+-- command to update
+vim.api.nvim_create_user_command("PackUpdate", function()
+	vim.pack.update()
+end, {})
