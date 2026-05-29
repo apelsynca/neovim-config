@@ -8,3 +8,4 @@ require("apelsynca.pack") -- plugins to install
 require("apelsynca.plugins-select") -- plugins to enable configure
 require("apelsynca.lsp") -- tells what lsps to enable
 require("apelsynca.autocmds")
+require("apelsynca.google-word-search")

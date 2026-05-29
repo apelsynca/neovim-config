@@ -9,11 +9,12 @@ vim.pack.add({
 	"https://github.com/mason-org/mason.nvim",
 	"https://github.com/stevearc/conform.nvim",
 	"https://github.com/m4xshen/autoclose.nvim",
+	"https://github.com/windwp/nvim-autopairs",
 	{ src = "https://github.com/nvim-tree/nvim-web-devicons", tag = "nerd-v3.2-compat" },
 	"https://github.com/neovim/nvim-lspconfig",
 	"https://github.com/folke/which-key.nvim",
 	"https://github.com/saghen/blink.lib",
-	"https://github.com/saghen/blink.cmp",
+	{ src = "https://github.com/saghen/blink.cmp" },
 	"https://github.com/L3MON4D3/LuaSnip",
 	"https://github.com/rafamadriz/friendly-snippets",
 	"https://github.com/windwp/nvim-ts-autotag",
@@ -23,6 +24,7 @@ vim.pack.add({
 	"https://github.com/winston0410/range-highlight.nvim",
 	"https://github.com/oskarnurm/koda.nvim",
 	"https://github.com/ThorstenRhau/token",
+	"https://github.com/harukikuri/todoage.nvim",
 })
 
 -- command to update

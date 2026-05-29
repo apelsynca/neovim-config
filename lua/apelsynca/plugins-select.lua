@@ -10,7 +10,10 @@ require("apelsynca.plugins.blink")
 require("apelsynca.plugins.ts-autotag")
 require("apelsynca.plugins.colorizer")
 
-require("autoclose").setup()
+-- require("autoclose").setup()
+require("nvim-autopairs").setup({
+	disable_filetype = { "TelescopePrompt", "spectre_panel", "snacks_picker_input" },
+})
 
 require("gruvbox").setup()
 vim.cmd.colorscheme("gruvbox")

@@ -1,7 +1,7 @@
 local o = vim.opt
 
 o.wrap = false
-o.swapfile = false     -- Don't create swap files
+o.swapfile = false -- Don't create swap files
 
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
@@ -10,9 +10,6 @@ o.termguicolors = true
 o.number = true
 o.relativenumber = true
 o.undofile = true
-
-o.cursorline = true
-
 
 o.tabstop = 2
 o.shiftwidth = 2
@@ -24,9 +21,9 @@ o.autoindent = true
 o.splitright = true
 o.splitbelow = true
 
-
 -- visual settings
-o.showmatch = true     -- Hightlight matching brackets
+o.showmatch = true -- Hightlight matching brackets
+o.cursorline = false
 
 o.ignorecase = true
 o.smartcase = true

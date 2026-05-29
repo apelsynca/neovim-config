@@ -6,7 +6,9 @@ local diagnostic_signs = {
 }
 
 vim.diagnostic.config({
-	virtual_text = { prefix = "●", spacing = 4 },
+	underline = true,
+	-- virtual_text = { prefix = "●", spacing = 4 },
+	virtual_text = false,
 	signs = {
 		text = {
 			[vim.diagnostic.severity.ERROR] = diagnostic_signs.Error,
@@ -15,7 +17,6 @@ vim.diagnostic.config({
 			[vim.diagnostic.severity.HINT] = diagnostic_signs.Hint,
 		},
 	},
-	underline = true,
 	update_in_insert = false,
 	severity_sort = true,
 	float = {

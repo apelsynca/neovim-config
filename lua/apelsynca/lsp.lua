@@ -7,4 +7,6 @@ vim.lsp.enable({
 	"emmet_language_server",
 	"cssls",
 	"eslint",
+	"clangd",
+	"rust_analyzer",
 })

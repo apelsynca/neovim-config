@@ -2,6 +2,7 @@ local prettier = { "prettierd", "prettier", stop_after_first = true }
 
 require("conform").setup({
 	formatters_by_ft = {
+		c = { "clang-format" },
 		lua = { "stylua" },
 		python = { "ruff_fix", "ruff_format", "ruff_organize_imports" },
 		toml = { "taplo" },
