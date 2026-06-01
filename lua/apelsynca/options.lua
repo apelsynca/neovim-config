@@ -37,3 +37,5 @@ o.signcolumn = "yes"
 o.clipboard = "unnamedplus"
 
 o.termguicolors = true
+
+o.cmdheight = 0 -- hiddes command line unless used (carefull!, people say it is bad todo that...)

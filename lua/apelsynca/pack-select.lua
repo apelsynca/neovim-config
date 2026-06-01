@@ -9,6 +9,7 @@ require("apelsynca.plugins.luasnippets")
 require("apelsynca.plugins.blink")
 require("apelsynca.plugins.ts-autotag")
 require("apelsynca.plugins.colorizer")
+require("apelsynca.plugins.textobjects")
 
 -- require("autoclose").setup()
 require("nvim-autopairs").setup({

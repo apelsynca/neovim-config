@@ -1,3 +1,3 @@
 require("colorizer").setup({
-	filetypes = { "*", "!markdown" }, -- suka blyat, kinda dont want that
+	filetypes = { "typescriptreact", "javascriptreact", "html", "css" }, -- continue if missing smth
 })
