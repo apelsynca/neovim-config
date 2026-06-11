@@ -9,4 +9,5 @@ vim.lsp.enable({
 	"eslint",
 	"clangd",
 	"rust_analyzer",
+	"tailwindcss",
 })

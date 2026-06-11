@@ -5,5 +5,7 @@ vim.keymap.set("n", "<leader>w", function()
 end)
 
 vim.keymap.set("n", "<leader>W", function()
-	require("nvim-treesitter-textobjects.swap").swap_previous("@parameter.outer")
+	require("nvim-treesitter-textobjects.swap").swap_previous("@parameter.inner")
 end)
+
+-- @parameter.outer

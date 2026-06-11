@@ -1,5 +1,7 @@
-This is my neovim config (v2, for 12.0)
+# This is my neovim config
 
-How to update vim.pack plugins?
+Neovim 12.0+ (`UI v2` enabled)
 
-lua vim.pack.update() and then :w (save) or :update to update
+##### How to update vim.pack plugins?
+
+`lua vim.pack.update()` and then `:w` (usual save) or `:update` to update

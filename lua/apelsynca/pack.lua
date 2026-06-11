@@ -1,4 +1,9 @@
 vim.pack.add({
+	-- colorschemes
+	"https://github.com/ellisonleao/gruvbox.nvim",
+	"https://github.com/ThorstenRhau/token",
+	"https://github.com/oskarnurm/koda.nvim",
+
 	"https://github.com/stevearc/oil.nvim",
 	"https://github.com/nvim-lualine/lualine.nvim",
 	"https://github.com/ibhagwan/fzf-lua",
@@ -22,11 +27,16 @@ vim.pack.add({
 	"https://github.com/MeanderingProgrammer/render-markdown.nvim",
 	"https://github.com/catgoose/nvim-colorizer.lua",
 	"https://github.com/winston0410/range-highlight.nvim",
-	"https://github.com/harukikuri/todoage.nvim",
-	-- colorschemes
-	"https://github.com/ellisonleao/gruvbox.nvim",
-	"https://github.com/ThorstenRhau/token",
-	"https://github.com/oskarnurm/koda.nvim",
+	-- "https://github.com/harukikuri/todoage.nvim", -- shows age of todo comments (by git cmts)
+	"https://github.com/sindrets/diffview.nvim",
+
+	-- {
+	-- 	source = "iamcco/markdown-preview.nvim",
+	-- 	-- Lazy load on markdown filetypes
+	-- 	ft = { "markdown", "pandoc.markdown", "rmd" },
+	-- 	-- Lazy load on command execution
+	-- 	cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+	-- },
 })
 
 -- command to update
