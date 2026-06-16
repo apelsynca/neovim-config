@@ -37,3 +37,11 @@ do
 		return orig(contents, syntax, opts, ...)
 	end
 end
+
+-- Threat .mdx files as markdown (don't know better solution)
+
+vim.filetype.add({
+	extension = {
+		mdx = "markdown",
+	},
+})
