@@ -2,9 +2,6 @@ local map = vim.keymap.set
 
 map("n", "<leader>x", "<CMD>bd<CR>", { desc = "close buffer" })
 
--- decided to not use that, since <leader>fb is faster and kinda better
--- map("n", "<leader><C-x>", "<CMD>bd!<CR>", { desc = "force close buffer" })
-
 map("n", "<Esc>", "<CMD>nohl<CR>", { desc = "Clear search hl", silent = true })
 
 map("n", ";", ":")

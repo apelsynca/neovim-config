@@ -16,5 +16,7 @@ require("nvim-autopairs").setup({
 	disable_filetype = { "TelescopePrompt", "spectre_panel", "snacks_picker_input" },
 })
 
-require("gruvbox").setup()
+require("gruvbox").setup({
+  transparent_mode = true,
+})
 vim.cmd.colorscheme("gruvbox")
