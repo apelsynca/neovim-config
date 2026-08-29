@@ -28,7 +28,6 @@ vim.pack.add({
   "https://github.com/catgoose/nvim-colorizer.lua",
   "https://github.com/winston0410/range-highlight.nvim",
   "https://github.com/sindrets/diffview.nvim",
-  { src = "https://github.com/folke/todo-comments.nvim" },
   {
     src = "https://github.com/nickjvandyke/opencode.nvim",
     version = vim.version.range("*"),

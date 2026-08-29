@@ -92,6 +92,11 @@
       "rev": "b73018b75affd13fa38e2fc94ef753b465f770d7",
       "src": "https://github.com/stevearc/oil.nvim"
     },
+    "opencode.nvim": {
+      "rev": "4576b372034495b8868e6cbe878e85c717998867",
+      "src": "https://github.com/nickjvandyke/opencode.nvim",
+      "version": ">=0.0.0"
+    },
     "range-highlight.nvim": {
       "rev": "097103da6550c2a34c029971c3d7da63d3fef320",
       "src": "https://github.com/winston0410/range-highlight.nvim"
@@ -99,6 +104,10 @@
     "render-markdown.nvim": {
       "rev": "4663eb3ecd538bd5062628fb6d95bbe6bdca78f6",
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
+    },
+    "todo-comments.nvim": {
+      "rev": "31e3c38ce9b29781e4422fc0322eb0a21f4e8668",
+      "src": "https://github.com/folke/todo-comments.nvim"
     },
     "token": {
       "rev": "6fb815601095e2673d7d62d2a816255bf7c680c0",
