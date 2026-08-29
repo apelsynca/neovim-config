@@ -1,6 +1,5 @@
 return {
-  settings = {
-    ty = {
-    }
-  }
+	settings = {
+		ty = {},
+	},
 }
