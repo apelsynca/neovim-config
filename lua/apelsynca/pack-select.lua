@@ -11,6 +11,7 @@ require("apelsynca.plugins.ts-autotag")
 require("apelsynca.plugins.colorizer")
 require("apelsynca.plugins.textobjects")
 require("apelsynca.plugins.opencode")
+require("apelsynca.plugins.todo-comments")
 
 require("nvim-autopairs").setup({
 	disable_filetype = { "TelescopePrompt", "spectre_panel", "snacks_picker_input" },

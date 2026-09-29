@@ -31,6 +31,12 @@ vim.pack.add({
 		src = "https://github.com/nickjvandyke/opencode.nvim",
 		version = vim.version.range("*"),
 	},
+
+	"https://github.com/nvim-lua/plenary.nvim",
+	{
+		src = "https://github.com/folke/todo-comments.nvim",
+		dependencies = { "nvim-lua/plenary.nvim" },
+	},
 })
 
 -- command to update
