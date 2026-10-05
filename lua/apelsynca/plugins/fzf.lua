@@ -14,3 +14,6 @@ map("n", "<leader>fb", "<cmd>FzfLua buffers<cr>", { desc = "Find open buffers" }
 map("n", "<leader>fr", "<cmd>FzfLua resume<cr>", { desc = "Resume last picker" })
 map("n", "<leader>fh", "<cmd>FzfLua helptags<cr>", { desc = "Find in help docs" })
 map("n", "<leader>fc", "<cmd>FzfLua colorschemes<cr>")
+
+-- todo-comments plugin must be installed
+map("n", "<leader>ft", "<cmd>TodoFzfLua<cr>", { desc = "Find todo comments with Fzf" })

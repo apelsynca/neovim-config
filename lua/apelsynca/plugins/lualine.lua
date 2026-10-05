@@ -25,7 +25,7 @@ require("lualine").setup({
 		},
 		lualine_x = { "filetype" },
 		lualine_y = { diff },
-		lualine_z = { "location", { require("opencode").statusline } },
+		lualine_z = { "location" },
 	},
 	options = {
 		theme = gruvbox_theme_custom,
