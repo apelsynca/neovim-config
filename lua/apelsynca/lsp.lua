@@ -2,7 +2,7 @@ vim.lsp.enable({
 	"lua_ls",
 	"ruff",
 	"pyright",
-	"ts_ls",
+	"vtsls",
 	"taplo",
 	"emmet_language_server",
 	"cssls",

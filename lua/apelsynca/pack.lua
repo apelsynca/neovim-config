@@ -32,6 +32,7 @@ vim.pack.add({
 		src = "https://github.com/folke/todo-comments.nvim",
 		dependencies = { "nvim-lua/plenary.nvim" },
 	},
+	"https://forge.barrettruth.com/barrettruth/live-server.nvim",
 })
 
 -- command to update
