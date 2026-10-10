@@ -18,11 +18,11 @@ vim.lsp.enable({
 local optional_lsp_servers = {
 	bashls = "bash-language-server",
 	yamlls = "yaml-language-server",
-	typos_lsp = "types-lsp",
+	typos_lsp = "typos-lsp",
 }
 
 for server_name, server_exe in pairs(optional_lsp_servers) do
-	if vim.fn.executable(server_exe) then
+	if vim.fn.executable(server_exe) > 0 then
 		vim.lsp.enable(server_name)
 	else
 		local msg = string.format(
