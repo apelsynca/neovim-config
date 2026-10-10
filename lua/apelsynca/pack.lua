@@ -11,6 +11,7 @@ vim.pack.add({
 	"https://github.com/kdheepak/lazygit.nvim",
 	"https://github.com/lewis6991/gitsigns.nvim",
 	"https://github.com/mason-org/mason.nvim",
+	"https://github.com/mason-org/mason-lspconfig.nvim",
 	"https://github.com/stevearc/conform.nvim",
 	"https://github.com/windwp/nvim-autopairs",
 	{ src = "https://github.com/nvim-tree/nvim-web-devicons", tag = "nerd-v3.2-compat" },

@@ -1,4 +1,8 @@
-require("vim._core.ui2").enable({})
+require("vim._core.ui2").enable({
+	msg = {
+		timeout = 1250, -- keep messages on screen for 1.25s
+	},
+})
 
 require("apelsynca.options")
 require("apelsynca.core")

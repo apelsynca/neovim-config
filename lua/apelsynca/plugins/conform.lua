@@ -1,4 +1,5 @@
 local prettier = { "prettierd", "prettier", stop_after_first = true }
+local biome = { "biome-check" }
 
 require("conform").setup({
 	formatters_by_ft = {
@@ -6,14 +7,14 @@ require("conform").setup({
 		lua = { "stylua" },
 		python = { "ruff_fix", "ruff_format", "ruff_organize_imports" },
 		toml = { "taplo" },
-		json = { "jq" },
-		javascript = prettier,
-		javascriptreact = prettier,
-		typescript = prettier,
-		typescriptreact = prettier,
-		css = prettier,
-		scss = prettier,
-		less = prettier,
+		json = biome,
+		javascript = biome,
+		javascriptreact = biome,
+		typescript = biome,
+		typescriptreact = biome,
+		css = biome,
+		scss = biome,
+		less = biome,
 		html = prettier,
 		markdown = prettier,
 	},
