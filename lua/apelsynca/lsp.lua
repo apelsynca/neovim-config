@@ -42,18 +42,3 @@ vim.api.nvim_create_user_command("LspInfo", "checkhealth vim.lsp", {
 vim.api.nvim_create_user_command("LspRestart", "lsp restart", {
 	desc = "Restart LSP",
 })
-
---- show LSP progress (works on Ghostty)
-vim.api.nvim_create_autocmd("LspProgress", {
-	callback = function(ev)
-		local value = ev.data.params.value
-		vim.api.nvim_echo({ { value.message or "done" } }, false, {
-			id = "lsp." .. ev.data.client_id,
-			kind = "progress",
-			source = "vim.lsp",
-			title = value.title,
-			status = value.kind ~= "end" and "running" or "success",
-			percent = value.percentage,
-		})
-	end,
-})
